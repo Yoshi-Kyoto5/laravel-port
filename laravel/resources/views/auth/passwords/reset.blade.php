@@ -21,7 +21,7 @@
                 <input type="hidden" name="token" value="{{ $token }}">
 
                 <div class="md-form">
-                  <label for="password">新しいパスワード</label>
+                  <label for="password">新規パスワード</label>
                   <input class="form-control" type="password" id="password" name="password" required>
                 </div>
 
