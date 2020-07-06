@@ -9,7 +9,7 @@
         <h1 class="text-center"><a class="text-dark" href="/">Lara-Port</a></h1>
         <div class="card mt-3">
           <div class="card-body text-center">
-            <h2 class="h3 card-title text-center mt-2">新しいパスワードを設定</h2>
+            <h2 class="h3 card-title text-center mt-2">新規パスワード設定</h2>
 
             @include('error_card_list')
 
@@ -21,12 +21,12 @@
                 <input type="hidden" name="token" value="{{ $token }}">
 
                 <div class="md-form">
-                  <label for="password">新しいパスワード</label>
+                  <label for="password">新規パスワード</label>
                   <input class="form-control" type="password" id="password" name="password" required>
                 </div>
 
                 <div class="md-form">
-                  <label for="password_confirmation">新しいパスワード(再入力)</label>
+                  <label for="password_confirmation">新規パスワード(再入力)</label>
                   <input class="form-control" type="password" id="password_confirmation" name="password_confirmation" required>
                 </div>
 
